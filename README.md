@@ -2,6 +2,8 @@
 
 A personal JetBrains Rider keymap based on **ReSharper (macOS)**.
 
+[JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35181-imprfct-keymap-macos) · [Download 1.0.0](https://github.com/imprfct/imprfct-keymap-macos/releases/tag/v1.0.0)
+
 | Shortcut | Action |
 | --- | --- |
 | Cmd+W | Close the current tab |
@@ -30,9 +32,8 @@ Run `python3 build.py`. The ZIP is written to `dist/`. The plugin contains only 
 
 ## Marketplace publishing
 
-The archive is prepared for submission; it has not been published.
-An author account, vendor profile, and developer agreement are required before submission. The license is MIT.
-Publication is subject to JetBrains review. Local shortcut edits are not automatically published as updates.
+Version 1.0.0 was submitted to JetBrains Marketplace on 2026-10-16 and is awaiting review. The license is MIT.
+Local shortcut edits are not automatically published as updates.
 
 [JetBrains custom keymaps documentation](https://www.jetbrains.com/help/rider/Configuring_Keyboard_and_Mouse_Shortcuts.html)
 
