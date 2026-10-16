@@ -1,0 +1,25 @@
+<idea-plugin url="https://github.com/imprfct/imprfct-keymap-macos">
+  <id>io.github.imprfct.keymap.macos</id>
+  <name>imprfct Keymap macOS</name>
+  <version>1.0.0</version>
+  <vendor url="https://github.com/imprfct">imprfct</vendor>
+  <description><![CDATA[
+    <p>A macOS keymap for JetBrains Rider, based on ReSharper (macOS), with direct tab switching and structural text selection.</p>
+    <ul>
+      <li>Cmd+W: close the current tab.</li>
+      <li>Cmd+1 through Cmd+9: select the corresponding editor tab.</li>
+      <li>Option+W: extend selection.</li>
+      <li>Option+Shift+W: shrink selection.</li>
+    </ul>
+    <p>After installation, select <b>imprfct Keymap macOS</b> in Settings &gt; Keymap.</p>
+    <p>Other shortcuts are inherited from ReSharper (macOS). Cmd+1 through Cmd+9 are removed from tool-window actions to avoid conflicts.</p>
+  ]]></description>
+  <change-notes>Initial release with tab navigation, closing the current tab, and extending or shrinking selection.</change-notes>
+  <idea-version since-build="262" />
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.rider</depends>
+  <depends>com.intellij.plugins.resharperkeymap</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledKeymap file="imprfct Keymap macOS.xml" />
+  </extensions>
+</idea-plugin>
